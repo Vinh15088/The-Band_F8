@@ -167,6 +167,7 @@ html {
 #slider .text-description {
     font-size: 15px;
     margin-top: 25px;
+    text-shadow: 0 0 1px #000;
 }
 
 /* CONTENT */
@@ -324,6 +325,8 @@ html {
     padding: 10px 16px;
     float: right;
     outline: none;
+    appearance: none;
+    -webkit-animation: none;
 }
 .contact-form .form-submit:hover {
     color:#000;
